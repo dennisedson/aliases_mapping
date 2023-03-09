@@ -5,6 +5,7 @@ Using aliases to update custom module fields while preserving field values on we
 [YouTube video](https://youtu.be/f8BbvdIjbaw) demoing this feature
 ###
 [Developer Documentation](https://developers.hubspot.com/docs/cms/marketplace-guidelines/module-requirements#aliases)
-Included a style field using dot notation and one that is not using dot notation.  
+
+There are two json files.  V0 includes the fields prior to being grouped and moved.  v1 includes the `aliasses_mapping` in action
 
 
