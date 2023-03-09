@@ -1,0 +1,141 @@
+[
+  {
+    "name": "button",
+    "display_width": null,
+    "label": "Button",
+    "required": false,
+    "locked": false,
+    "children": [
+      {
+        "name": "button_text_new",
+        "display_width": null,
+        "label": "Button Text",
+        "required": false,
+        "locked": false,
+        "validation_regex": "",
+        "allow_new_line": false,
+        "show_emoji_picker": false,
+        "type": "text",
+        "default": "good button",
+        "aliases_mapping": {
+          "property_aliases_paths": {
+            "button_text_new": [
+              "button_text"
+            ]
+          }
+        }
+      },
+      {
+        "name": "button_link",
+        "display_width": null,
+        "label": "Button Link",
+        "required": false,
+        "locked": false,
+        "supported_types": [
+          "EXTERNAL",
+          "CONTENT",
+          "FILE",
+          "EMAIL_ADDRESS",
+          "BLOG",
+          "CALL_TO_ACTION"
+        ],
+        "show_advanced_rel_options": false,
+        "type": "link",
+        "default": {
+          "url": {
+            "type": "EXTERNAL",
+            "href": "https://icodegood.com",
+            "content_id": null
+          },
+          "open_in_new_tab": false,
+          "no_follow": false
+        },
+        "aliases_mapping": {
+          "property_aliases_paths": {
+            "button_text": [
+              "button_link"
+            ]
+          }
+        }
+      }
+    ],
+    "tab": "CONTENT",
+    "expanded": false,
+    "type": "group",
+    "default": {
+      "button_text": "good button",
+      "button_link": {
+        "url": {
+          "type": "EXTERNAL",
+          "href": "https://icodegood.com",
+          "content_id": null
+        },
+        "open_in_new_tab": false,
+        "no_follow": false
+      }
+    }
+  },
+  {
+    "name": "style",
+    "display_width": null,
+    "label": "Style",
+    "required": false,
+    "locked": false,
+    "children": [
+      {
+        "name": "button_color",
+        "display_width": null,
+        "label": "Button Color",
+        "required": false,
+        "locked": false,
+        "type": "color",
+        "default": {
+          "color": "#cccccc",
+          "opacity": 100
+        },
+        "aliases_mapping": {
+          "property_aliases_paths": {
+            "color.color": [
+              "button_color.color"
+            ],
+            "color.opacity": [
+              "button_color.opacity"
+            ]
+          }
+        }
+      },
+      {
+        "name": "button_text_color",
+        "display_width": null,
+        "label": "Button Text Color",
+        "required": false,
+        "locked": false,
+        "type": "color",
+        "default": {
+          "color": "#000000",
+          "opacity": 100
+        },
+        "aliases_mapping": {
+          "property_aliases_paths": {
+            "color": [
+              "button_text_color"
+            ]
+          }
+        }
+      }
+    ],
+    "tab": "STYLE",
+    "expanded": false,
+    "type": "group",
+    "default": {
+      "button_color": {
+        "color": "#cccccc",
+        "opacity": 100
+      },
+      "button_text_color": {
+        "color": "#000000",
+        "opacity": 100
+      }
+    }
+  }
+]
