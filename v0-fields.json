@@ -1,0 +1,68 @@
+[
+  {
+    "id": "button_text",
+    "name": "button_text",
+    "display_width": null,
+    "label": "Button Text",
+    "required": false,
+    "locked": false,
+    "validation_regex": "",
+    "allow_new_line": false,
+    "show_emoji_picker": false,
+    "type": "text",
+    "default": "good button"
+  },
+  {
+    "id": "button_link",
+    "name": "button_link",
+    "display_width": null,
+    "label": "Button Link",
+    "required": false,
+    "locked": false,
+    "supported_types": [
+      "EXTERNAL",
+      "CONTENT",
+      "FILE",
+      "EMAIL_ADDRESS",
+      "BLOG",
+      "CALL_TO_ACTION"
+    ],
+    "show_advanced_rel_options": false,
+    "type": "link",
+    "default": {
+      "url": {
+        "type": "EXTERNAL",
+        "href": "https://icodegood.com",
+        "content_id": null
+      },
+      "open_in_new_tab": false,
+      "no_follow": false
+    }
+  },
+  {
+    "id": "button_color",
+    "name": "button_color",
+    "display_width": null,
+    "label": "Button Color",
+    "required": false,
+    "locked": false,
+    "type": "color",
+    "default": {
+      "color": "#cccccc",
+      "opacity": 100
+    }
+  },
+  {
+    "id": "button_text_color",
+    "name": "button_text_color",
+    "display_width": null,
+    "label": "Button Text Color",
+    "required": false,
+    "locked": false,
+    "type": "color",
+    "default": {
+      "color": "#000000",
+      "opacity": 100
+    }
+  }
+]
