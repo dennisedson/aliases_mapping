@@ -83,7 +83,7 @@
     "locked": false,
     "children": [
       {
-        "name": "button_color",
+        "name": "button_color_new",
         "display_width": null,
         "label": "Button Color",
         "required": false,
@@ -95,14 +95,14 @@
         },
         "aliases_mapping": {
           "property_aliases_paths": {
-            "button_color": [
+            "button_color_new": [
               "button_color"
             ]
           }
         }
       },
       {
-        "name": "button_text_color",
+        "name": "button_text_color_new",
         "display_width": null,
         "label": "Button Text Color",
         "required": false,
@@ -114,7 +114,7 @@
         },
         "aliases_mapping": {
           "property_aliases_paths": {
-            "button_text_color": [
+            "button_text_color_new": [
               "button_text_color"
             ]
           }
