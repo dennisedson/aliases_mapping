@@ -95,11 +95,8 @@
         },
         "aliases_mapping": {
           "property_aliases_paths": {
-            "button_color.color": [
-              "color.color"
-            ],
-            "button_color.opacity": [
-              "color.opacity"
+            "button_color": [
+              "button_color"
             ]
           }
         }
@@ -117,7 +114,7 @@
         },
         "aliases_mapping": {
           "property_aliases_paths": {
-            "color": [
+            "button_text_color": [
               "button_text_color"
             ]
           }
